@@ -49,7 +49,7 @@
                      </font>
                   </Label>
                   <Button fx:id="sub_singupBtn" layoutX="63.0" layoutY="351.0" mnemonicParsing="false" onAction="#singupSlider" prefHeight="35.0" prefWidth="170.0" styleClass="side-btn" stylesheets="@loginDesing.css" text="Sign Up" />
-                  <Button fx:id="sub_loginBtn" layoutX="63.0" layoutY="351.0" mnemonicParsing="false" onAction="#loginSlider" prefHeight="35.0" prefWidth="170.0" styleClass="side-btn" stylesheets="@loginDesing.css" text="Sing In" visible="false" />
+                  <Button fx:id="sub_loginBtn" layoutX="63.0" layoutY="351.0" mnemonicParsing="false" onAction="#loginSlider" prefHeight="35.0" prefWidth="170.0" styleClass="side-btn" stylesheets="@loginDesing.css" text="Sign In" visible="false" />
                   <Label fx:id="edit_lable" layoutX="80.0" layoutY="319.0" text="Create Account" textFill="WHITE">
                      <font>
                         <Font name="Tahoma" size="20.0" />
