@@ -15,7 +15,7 @@
          <children>
             <AnchorPane fx:id="singup_form" prefHeight="400.0" prefWidth="300.0" styleClass="login-form" stylesheets="@loginDesing.css">
                <children>
-                  <Label layoutX="110.0" layoutY="125.0" text="Sing Up">
+                  <Label layoutX="110.0" layoutY="125.0" text="Sign Up">
                      <font>
                         <Font name="Berlin Sans FB" size="25.0" />
                      </font>
@@ -23,14 +23,14 @@
                   <TextField fx:id="su_email" layoutX="35.0" layoutY="183.0" prefHeight="35.0" prefWidth="220.0" promptText="Email Address" styleClass="textfield" stylesheets="@loginDesing.css" />
                   <TextField fx:id="su_username" layoutX="35.0" layoutY="228.0" prefHeight="35.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@loginDesing.css" />
                   <PasswordField fx:id="su_password" layoutX="35.0" layoutY="274.0" prefHeight="35.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@loginDesing.css" />
-                  <Button fx:id="su_singupBtn" layoutX="35.0" layoutY="330.0" mnemonicParsing="false" onAction="#singUp" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@loginDesing.css" text="Sing Up" />
+                  <Button fx:id="su_singupBtn" layoutX="35.0" layoutY="330.0" mnemonicParsing="false" onAction="#singUp" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@loginDesing.css" text="Sign Up" />
                   <FontAwesomeIcon fill="#3f2ba4" glyphName="USER_PLUS" layoutX="116.0" layoutY="115.0" size="5em" />
                </children>
             </AnchorPane>
             <AnchorPane fx:id="login_form" layoutX="300.0" prefHeight="400.0" prefWidth="300.0" styleClass="login-form" stylesheets="@loginDesing.css" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <FontAwesomeIcon fill="#292694" glyphName="USER" layoutX="121.0" layoutY="116.0" size="5em" text="" />
-                  <Label layoutX="110.0" layoutY="125.0" text="Sing In">
+                  <Label layoutX="110.0" layoutY="125.0" text="Sign In">
                      <font>
                         <Font name="Berlin Sans FB" size="25.0" />
                      </font>
@@ -48,7 +48,7 @@
                         <Font name="Tahoma" size="18.0" />
                      </font>
                   </Label>
-                  <Button fx:id="sub_singupBtn" layoutX="63.0" layoutY="351.0" mnemonicParsing="false" onAction="#singupSlider" prefHeight="35.0" prefWidth="170.0" styleClass="side-btn" stylesheets="@loginDesing.css" text="Sing Up" />
+                  <Button fx:id="sub_singupBtn" layoutX="63.0" layoutY="351.0" mnemonicParsing="false" onAction="#singupSlider" prefHeight="35.0" prefWidth="170.0" styleClass="side-btn" stylesheets="@loginDesing.css" text="Sign Up" />
                   <Button fx:id="sub_loginBtn" layoutX="63.0" layoutY="351.0" mnemonicParsing="false" onAction="#loginSlider" prefHeight="35.0" prefWidth="170.0" styleClass="side-btn" stylesheets="@loginDesing.css" text="Sing In" visible="false" />
                   <Label fx:id="edit_lable" layoutX="80.0" layoutY="319.0" text="Create Account" textFill="WHITE">
                      <font>
