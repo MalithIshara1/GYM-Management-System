@@ -176,7 +176,7 @@ public class FXMLDocumentController {
         TranslateTransition translateTransition = new TranslateTransition();
         translateTransition.setNode(sub_form);
         translateTransition.setToX(300);
-        translateTransition.setDuration(Duration.seconds(.5));
+        translateTransition.setDuration(Duration.seconds(0.5));
         translateTransition.play();
 
         translateTransition.setOnFinished((ActionEvent event) ->{
@@ -195,7 +195,7 @@ public class FXMLDocumentController {
         TranslateTransition translateTransition = new TranslateTransition();
         translateTransition.setNode(sub_form);
         translateTransition.setToX(0);
-        translateTransition.setDuration(Duration.seconds(.5));
+        translateTransition.setDuration(Duration.seconds(0.5));
         translateTransition.play();
 
         translateTransition.setOnFinished((ActionEvent event) ->{

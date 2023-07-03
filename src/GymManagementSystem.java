@@ -35,7 +35,7 @@ public class GymManagementSystem extends Application {
             primaryStage.setOpacity(0.8);
         });
 
-        parent.setOnMouseReleased((MouseEvent evebt) ->{
+        parent.setOnMouseReleased((MouseEvent event) ->{
             primaryStage.setOpacity(1);
         });
 
