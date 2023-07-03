@@ -140,7 +140,7 @@
                                     <AnchorPane layoutX="590.0" layoutY="8.0" prefHeight="134.0" prefWidth="252.0" styleClass="nav" stylesheets="@dashboardDesing.css">
                                        <children>
                                           <FontAwesomeIcon fill="WHITE" glyphName="MONEY" layoutX="19.0" layoutY="91.0" size="5em" />
-                                          <Label fx:id="dashboad_TI" alignment="CENTER_RIGHT" layoutX="125.0" layoutY="17.0" prefHeight="21.0" prefWidth="110.0" text="\$ 0.0" textFill="WHITE">
+                                          <Label fx:id="dashboad_TI" alignment="CENTER_RIGHT" layoutX="125.0" layoutY="17.0" prefHeight="21.0" prefWidth="110.0" text="RS 0.0" textFill="WHITE">
                                              <font>
                                                 <Font name="Tahoma" size="17.0" />
                                              </font>
